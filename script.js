@@ -11,7 +11,8 @@ const getRandom = (arr) => {
 }
 
 //console.log(getRandom(phrases.partOne));
-
+const generateMessage() ={
+    
 let finalMessage = '';
 
 for (let part in phrases) { 
@@ -29,3 +30,4 @@ for (let part in phrases) {
 }
 
 console.log(finalMessage);
+}
