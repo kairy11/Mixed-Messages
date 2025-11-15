@@ -12,3 +12,20 @@ const getRandom = (arr) => {
 
 //console.log(getRandom(phrases.partOne));
 
+let finalMessage = '';
+
+for (let part in phrases) { 
+    switch (part) {
+        case 'partOne':
+            finalMessage += getRandom(phrases[part]) + ', ';
+            break;
+        case 'partTwo':
+            finalMessage += getRandom(phrases[part]) + ', ';
+            break;
+        case 'partThree':
+            finalMessage += getRandom(phrases[part]);
+            break;
+    }
+}
+
+console.log(finalMessage);
