@@ -31,3 +31,5 @@ for (let part in phrases) {
 
 console.log(finalMessage);
 }
+
+generateMessage();
